@@ -7,8 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\book2.jpg" />
-    <None Include="wwwroot\book3.jpg" />
+    <Content Include="myroot\book2.jpg" />
+    <Content Include="myroot\book3.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
   </ItemGroup>
 
 </Project>
